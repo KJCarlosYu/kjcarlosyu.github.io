@@ -1,0 +1,18 @@
+title: Kangjie Carlos Yu
+description: Data Analyst
+site_title: 'Master in Business Analytics and Big Data - IE University'
+
+# Build settings
+markdown: kramdown
+exclude: [vendor/ruby]
+
+# Personalization
+github_username: kjcarlosyu
+email: carlos.yu@student.ie.edu
+linkedin: Kangjie Yu
+
+# absolute or relative
+profile_picture: assets/images/pp.jpg
+
+# Google Analytics ID
+google_analytics: 
