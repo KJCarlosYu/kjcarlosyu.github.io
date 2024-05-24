@@ -453,15 +453,13 @@ a {
 }
 
 .project-technologies {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(120px, 1fr))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px; 
   margin: 20px 0;
-  grid-gap: 5px;
-  grid-row-gap: 10px;
-  width: 100%;
 }
+
 
 .project-technology {
   border: 1px solid #222;
