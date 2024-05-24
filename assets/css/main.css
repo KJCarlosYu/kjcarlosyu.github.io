@@ -227,7 +227,6 @@ img {
 
 .paragraph-text {
   font-family: 'PT Sans', sans-serif;
-  text-align: left;
   font-size: 20.8px;
   font-size: 1.3rem;
   color: #404040;
@@ -256,7 +255,7 @@ img {
 }
 
 .paragraph-text ul li::before {
-  content: '- '; /* 添加自定义列表标记 */
+  content: ' '; /* 添加自定义列表标记 */
 }
 .pt-sans-font {
   font-family: 'PT Sans', sans-serif;
