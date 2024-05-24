@@ -26,7 +26,7 @@ let render_projects = (slug) => {
             demo: 'https://lookerstudio.google.com/reporting/62ca2cc3-7d6d-45da-bbbe-60c5a5a83221',
             technologies: ['Python','Pandas','Looker Studio'],
             description: "A interactive looker studio dashboard about greenhouse gas emissions in Europe",
-            categories: ['Looker Studio']
+            categories: ['LookerStudio']
         },
         {
             image: 'assets/images/smoke.jpg',
