@@ -15,7 +15,7 @@ let render_projects = (slug) => {
             link: 'https://github.com/KJCarlosYu/Myproject/tree/main/Bike_count_simulator',
             title: 'Rental counts Simulator',
             demo: 'https://share.streamlit.io/app/bikerentalcountssimulator/',
-            technologies: ['Python','Random Forest','XGBoost','Streamlit'],
+            technologies: ['Python','XGBoost','Streamlit'],
             description: "Streamlit Application for predicting the number of bikes rented according to the time.",
             categories: ['Python']
         },
@@ -33,7 +33,7 @@ let render_projects = (slug) => {
             link: 'https://github.com/KJCarlosYu/Myproject/blob/main/Machine-Learning/Binary%20classification%20of%20smokers/Machine_learning_project.ipynb',
             title: 'Classification of smokers',
             demo: false,
-            technologies: ['Python','Machine Learning', 'Random Forest','XGBoost'],
+            technologies: ['Python','Random Forest','XGBoost'],
             description: "Binary classification model to predict the smoking status of a certain person",
             categories: ['Python']
         },
