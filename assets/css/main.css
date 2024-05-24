@@ -242,13 +242,14 @@ img {
 
 .paragraph-text ul {
   list-style-type: none; 
+  font-size: 15px;
   padding: 0;
   text-align: left; 
   display: inline-block; 
 }
 
 .paragraph-text ul li {
-  margin: 0px 0;
+  font-size: 15px;
   padding-left: 0px;
   text-indent: 0px; 
 }
