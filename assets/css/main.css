@@ -237,7 +237,26 @@ img {
   font-family: 'PT Sans', sans-serif;
   color: #404040;
 }
+.paragraph-text p {
+  margin: 10px 0;
+}
 
+.paragraph-text ul {
+  list-style-type: none; 
+  padding: 0;
+  text-align: left; 
+  display: inline-block; 
+}
+
+.paragraph-text ul li {
+  margin: 5px 0;
+  padding-left: 20px;
+  text-indent: -10px; 
+}
+
+.paragraph-text ul li::before {
+  content: '- '; /* 添加自定义列表标记 */
+}
 .pt-sans-font {
   font-family: 'PT Sans', sans-serif;
 }
