@@ -477,9 +477,10 @@ a {
 .project-technologies {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   gap: 0px; 
-  margin: 0px 0;
+  margin: 20px 0;
 }
 
 
