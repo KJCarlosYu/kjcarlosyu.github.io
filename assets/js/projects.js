@@ -11,7 +11,7 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'assets/images/mentors.jpg',
+            image: 'assets/images/simulator.jpg',
             link: 'https://github.com/KJCarlosYu/Myproject/tree/main/Bike_count_simulator',
             title: 'Rental counts Simulator',
             demo: 'https://share.streamlit.io/app/bikerentalcountssimulator/',
