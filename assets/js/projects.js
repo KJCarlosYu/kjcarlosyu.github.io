@@ -59,7 +59,7 @@ let render_projects = (slug) => {
             image: 'assets/images/lander.png',
             link: 'https://github.com/KJCarlosYu/Myproject/tree/main/Machine-Learning/Lunar_lander',
             title: 'Lunar Lander',
-            demo: False,
+            demo: false,
             technologies: ['Python','PPO','RL'],
             description: "Reinforcement learning on lunar lander.",
             categories: ['Python']
