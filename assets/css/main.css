@@ -478,8 +478,8 @@ a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 5px; 
-  margin: 20px 0;
+  gap: 0px; 
+  margin: 0px 0;
 }
 
 
