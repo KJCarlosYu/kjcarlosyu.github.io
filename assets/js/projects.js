@@ -55,6 +55,15 @@ let render_projects = (slug) => {
             description: "Machine learning project predicting the rent in Madrid",
             categories: ['Dataiku']
         },
+        {
+            image: 'assets/images/lander.png',
+            link: 'https://github.com/KJCarlosYu/Myproject/tree/main/Machine-Learning/Lunar_lander',
+            title: 'Lunar Lander',
+            demo: False,
+            technologies: ['Python','PPO','RL'],
+            description: "Reinforcement learning on lunar lander.",
+            categories: ['Python']
+        },
     ]
 
     let projects = [];
