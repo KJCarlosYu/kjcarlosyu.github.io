@@ -191,6 +191,7 @@ img {
 .skills-subsection {
   font-size: 20.8px;
   font-size: 1.3rem;
+  text-align: left;
 }
 
 .section-heading {
@@ -231,6 +232,13 @@ img {
   font-size: 1.3rem;
   color: #404040;
 }
+.paragraph-text-white{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20.8px;
+  font-size: 1.3rem;
+  color: #fff;
+  text-align: left;
+}
 
 .paragraph-text-normal {
   font-family: 'PT Sans', sans-serif;
@@ -255,7 +263,7 @@ img {
 }
 
 .paragraph-text ul li::before {
-  content: ' '; /* 添加自定义列表标记 */
+  content: ' '; 
 }
 .pt-sans-font {
   font-family: 'PT Sans', sans-serif;
