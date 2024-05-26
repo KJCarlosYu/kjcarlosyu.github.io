@@ -25,7 +25,7 @@ let render_projects = (slug) => {
             title: 'Greenhouse gas emissions',
             demo: 'https://lookerstudio.google.com/reporting/62ca2cc3-7d6d-45da-bbbe-60c5a5a83221',
             technologies: ['Python','Pandas','Looker Studio'],
-            description: "A interactive looker studio dashboard about greenhouse gas emissions in Europe",
+            description: "A interactive looker studio dashboard about greenhouse gas emissions in Europe.",
             categories: ['LookerStudio']
         },
         {
@@ -34,7 +34,7 @@ let render_projects = (slug) => {
             title: 'Classification of smokers',
             demo: false,
             technologies: ['Python','Random Forest','XGBoost'],
-            description: "Binary classification model to predict the smoking status of a certain person",
+            description: "Binary classification model to predict the smoking status of a certain person.",
             categories: ['Python']
         },
         {
@@ -52,7 +52,7 @@ let render_projects = (slug) => {
             title: 'Rent-predicting',
             demo: false,
             technologies: ['Dataiku','Ordinary Least Squares'],
-            description: "Machine learning project predicting the rent in Madrid",
+            description: "Machine learning project predicting the rent in Madrid.",
             categories: ['Dataiku']
         },
         {

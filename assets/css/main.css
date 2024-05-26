@@ -135,8 +135,8 @@ img {
 .skills-grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 40% 60%;
-      grid-template-columns: 40% 60%;
+  -ms-grid-rows: 40% 60%;
+      grid-template-rows: 40% 60%;
   grid-gap: 20px;
 }
 
