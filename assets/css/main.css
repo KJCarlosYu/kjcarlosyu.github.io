@@ -259,6 +259,7 @@ img {
   font-size: 15px;
   padding-left: 0px;
   text-indent: 0px; 
+  padding-left:4em;
 }
 
 .paragraph-text ul li::before {
