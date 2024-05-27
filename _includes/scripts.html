@@ -1,6 +1,28 @@
-<script src="vendor/js/jquery-3.3.1.js"></script>
-<script src="vendor/js/jquery.smooth-scroll.js"></script>
-<script src="vendor/js/css-polyfills.min.js"></script>
-<script src="vendor/js/flexibility.js"></script>
-<script src="assets/js/main.js"></script>
-<script src="assets/js/projects.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>
+<script src="assets/js/agency.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+        "palette": {
+            "popup": {
+                "background": "#000"
+            },
+            "button": {
+                "background": "#f1d600"
+            }
+        },
+        "theme": "classic",
+        "content": {
+            "message": "This website uses cookies to ensure you get the best experience on our website.",
+            "dismiss": "Got it!",
+            "link": "Learn more",
+            "href": "/privacy-policy" // 这里的链接指向你的隐私政策页面
+        }
+    });
+});
+</script>
