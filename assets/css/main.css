@@ -198,17 +198,17 @@ img {
   display: flex;
   color:#fff;
   flex-wrap: wrap;
-  gap: 15px; /* 调整间距 */
+  gap: 20px; /* 调整间距 */
 }
 
 .skill-item {
   flex: 1;
-  min-width: 170px; /* 调整每个技能项的最小宽度 */
+  min-width: 200px; /* 调整每个技能项的最小宽度 */
 }
 
 .skill-item ul {
   margin-top: 5px;
-  padding-left: 10px; /* 调整列表项的左边距 */
+  padding-left: 15px; /* 调整列表项的左边距 */
 }
 
 .skill-item ul li {
