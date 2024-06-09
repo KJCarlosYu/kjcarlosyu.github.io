@@ -198,7 +198,7 @@ img {
   display: flex;
   color:#fff;
   flex-wrap: wrap;
-  gap: 20px; /* 调整间距 */
+  gap: 10px; /* 调整间距 */
 }
 
 .skill-item {
