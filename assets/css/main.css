@@ -208,7 +208,7 @@ img {
 
 .skill-item ul {
   margin-top: 5px;
-  padding-left: 20px; /* 调整列表项的左边距 */
+  padding-left: 10px; /* 调整列表项的左边距 */
 }
 
 .skill-item ul li {
