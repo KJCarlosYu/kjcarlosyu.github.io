@@ -215,6 +215,14 @@ img {
   list-style-type: disc; /* 可根据需要调整项目符号 */
 }
 
+.logo {
+  width: 20px; /* 调整图标宽度以适应文本 */
+  height: auto; /* 保持图标比例 */
+  margin-right: 10px; /* 调整图标与文本的间距 */
+  vertical-align: middle; /* 图标与文本垂直对齐 */
+}
+
+
 .section-heading {
   text-align: center;
   margin-bottom: 30px;
