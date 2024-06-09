@@ -216,7 +216,7 @@ img {
 }
 
 .logo {
-  width: 60px; /* 调整图标宽度以适应文本 */
+  width: 30px; /* 调整图标宽度以适应文本 */
   height: 30px; /* 确保高度与宽度相同 */
   margin-right: 10px; /* 调整图标与文本的间距 */
   vertical-align: middle; /* 图标与文本垂直对齐 */
