@@ -141,10 +141,10 @@ img {
 }
 
 .technical-skills {
-  font-family: Arial, sans-serif; 
+  font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  color: #333; 
+  color: #333;
   text-align: left;
 }
 
@@ -192,6 +192,26 @@ img {
   font-size: 20.8px;
   font-size: 1.3rem;
   text-align: left;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* 调整间距 */
+}
+
+.skill-item {
+  flex: 1;
+  min-width: 200px; /* 调整每个技能项的最小宽度 */
+}
+
+.skill-item ul {
+  margin-top: 5px;
+  padding-left: 20px; /* 调整列表项的左边距 */
+}
+
+.skill-item ul li {
+  list-style-type: disc; /* 可根据需要调整项目符号 */
 }
 
 .section-heading {
