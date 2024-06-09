@@ -196,7 +196,7 @@ img {
 
 .skills-container {
   display: flex;
-  color:#fff
+  color:#fff;
   flex-wrap: wrap;
   gap: 20px; /* 调整间距 */
 }
