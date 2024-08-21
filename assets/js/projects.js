@@ -17,7 +17,7 @@ let render_projects = (slug) => {
             demo: 'https://share.streamlit.io/app/bikerentalcountssimulator/',
             technologies: ['Python','XGBoost','Streamlit'],
             description: "Streamlit Application for predicting the number of bikes rented according to the time.",
-            categories: ['Python']
+            categories: ['Prediction']
         },
         {
             image: 'assets/images/greenhouse.png',
@@ -26,7 +26,7 @@ let render_projects = (slug) => {
             demo: 'https://lookerstudio.google.com/reporting/62ca2cc3-7d6d-45da-bbbe-60c5a5a83221',
             technologies: ['Python','Pandas','Looker Studio'],
             description: "A interactive looker studio dashboard about greenhouse gas emissions in Europe.",
-            categories: ['LookerStudio']
+            categories: ['Visualisations']
         },
         {
             image: 'assets/images/smoke.jpg',
@@ -35,16 +35,16 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['Python','Random Forest','XGBoost'],
             description: "Binary classification model to predict the smoking status of a certain person.",
-            categories: ['Python']
+            categories: ['Classification']
         },
         {
             image: 'assets/images/kmeans.png',
             link: 'https://github.com/KJCarlosYu/Myproject/tree/main/Machine-Learning/K-means_clustering_proposal_for_travel_agency',
             title: 'Clustering',
-            demo: 'https://www.nagekar.com/mpw',
+            demo: false,
             technologies: ['KMeans','Dataiku'],
             description: "Clustering based on a dataset from a travel agency, devided the trips into 4 types.",
-            categories: ['Dataiku']
+            categories: ['Clustering','Business Analysis']
         },
         {
             image: 'assets/images/rent.png',
@@ -53,7 +53,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['Dataiku','Ordinary Least Squares'],
             description: "Machine learning project predicting the rent in Madrid.",
-            categories: ['Dataiku']
+            categories: ['Prediction']
         },
         {
             image: 'assets/images/lander.png',
@@ -62,8 +62,45 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['Python','PPO','RL'],
             description: "Reinforcement learning on lunar lander.",
-            categories: ['Python']
+            categories: []
         },
+        {
+            image: 'assets/images/bcgx.jpg',
+            link: 'https://github.com/KJCarlosYu/Myproject/tree/main/Data%20Analysitcs/Corporate%20Project',
+            title: 'Customer Churn Prediction',
+            demo: false,
+            technologies: ['Python','Xgboost','Data Engineering'],
+            description: "Corporate project with BCG X.",
+            categories: ['Prediction','Visualisations','Clustering','Business Analysis']
+        },
+        {
+            image: 'assets/images/heavenhill.png',
+            link: 'https://github.com/KJCarlosYu/Myproject/tree/main/Data%20Analysitcs/IOWA%20Alcohol%20sales',
+            title: 'IOWA Alcohol Sales Analysis',
+            demo: false,
+            technologies: ['Python','Prophet','Data Engineering'],
+            description: "Business analysis on alcohol sales of Heaven Hill",
+            categories: ['Prediction','Visualisations','Business Analysis']
+        },
+        {
+            image: 'assets/images/NLP.jpg',
+            link: 'https://github.com/KJCarlosYu/Myproject/tree/main/NLP',
+            title: 'Disease Entity Recognition',
+            demo: false,
+            technologies: ['Python','NLP','TF-IDF'],
+            description: "NLP project identifying disease based on comments",
+            categories: ['Classification']
+        },
+        {
+            image: 'assets/images/iebags.jpg',
+            link: 'https://github.com/KJCarlosYu/Myproject/tree/main/DeepLearning',
+            title: 'IE Bag Detection',
+            demo: false,
+            technologies: ['Python','Yolov8','Transfer Learning'],
+            description: "Deep Learning project detecting IE bags.",
+            categories: ['Classification']
+        }
+
     ]
 
     let projects = [];
