@@ -44,7 +44,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['KMeans','Dataiku'],
             description: "Clustering based on a dataset from a travel agency, devided the trips into 4 types.",
-            categories: ['Clustering','Business Analysis']
+            categories: ['Clustering','BA']
         },
         {
             image: 'assets/images/rent.png',
@@ -71,7 +71,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['Python','Xgboost','Data Engineering'],
             description: "Corporate project with BCG X.",
-            categories: ['Prediction','Visualisations','Clustering','Business Analysis']
+            categories: ['Prediction','Visualisations','Clustering','BA']
         },
         {
             image: 'assets/images/heavenhill.png',
@@ -80,7 +80,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['Python','Prophet','Data Engineering'],
             description: "Business analysis on alcohol sales of Heaven Hill",
-            categories: ['Prediction','Visualisations','Business Analysis']
+            categories: ['Prediction','Visualisations','BA']
         },
         {
             image: 'assets/images/NLP.jpg',
